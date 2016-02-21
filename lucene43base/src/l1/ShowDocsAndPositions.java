@@ -17,6 +17,10 @@ import org.apache.lucene.store.Directory;
 import org.apache.lucene.store.RAMDirectory;
 import org.apache.lucene.util.Version;
 
+/**
+ * @author zhangzhiqiang06
+ * @date Feb 21, 20161:28:19 PM
+ */
 public class ShowDocsAndPositions {
 
     public static void main(String[] args) throws Exception {
