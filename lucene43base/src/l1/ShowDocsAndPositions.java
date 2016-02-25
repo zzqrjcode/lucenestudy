@@ -23,7 +23,11 @@ public class ShowDocsAndPositions {
 
         ShowDocsAndPositions hello = new ShowDocsAndPositions();
         hello.run();
+        System.out.println(System.currentTimeMillis());
 
+        Date date = new Date();
+        date.setTime(1456111475971l);
+        System.out.println(date.toLocaleString());
     }
 
     public void run() throws Exception {
